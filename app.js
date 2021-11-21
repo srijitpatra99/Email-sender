@@ -21,5 +21,5 @@ app.use(routes);
 app.listen(process.env.PORT || 5000, (err)=> {
     if(err)
     console.log(err);
-    console.log("server connected at "+ PORT);
+    console.log("server connected at "+ 5000);
 })
