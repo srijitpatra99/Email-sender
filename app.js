@@ -5,7 +5,6 @@ const bodyParser = require("body-parser");
 const routes = require("./routes");
 
 const app =express();
-const PORT =5000;
 
 app.set("view engine", "ejs");
 app.set('views', 'views');
@@ -19,7 +18,7 @@ app.use(express.static(path.join(__dirname , 'public')));
 
 app.use(routes);
 
-app.listen(PORT, (err)=> {
+app.listen(process.env.PORT || 5000, (err)=> {
     if(err)
     console.log(err);
     console.log("server connected at "+ PORT);
