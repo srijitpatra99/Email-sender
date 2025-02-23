@@ -1,7 +1,3 @@
-Here’s a refined version of your **Email-Sender** repository description for a polished and professional touch:  
-
----
-
 # **Email-Sender** ✉️  
 
 A simple email-sending application built with **Node.js** and **Nodemailer** to demonstrate email delivery functionality. This project processes user-submitted information on the backend and sends an email to the provided recipient.  
